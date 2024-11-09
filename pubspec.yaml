@@ -1,0 +1,43 @@
+name: musicly
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ">=2.20.0 <4.0.0"
+
+dependencies:
+  audioplayers: ^6.1.0
+  disable_battery_optimization: ^1.1.1
+  firebase_auth: ^5.3.1
+  firebase_core: ^3.6.0
+  firebase_database: ^11.1.4
+  flutter:
+    sdk: flutter
+  flutter_foreground_service: ^0.4.0
+  fluttertoast: ^8.2.8
+  http: ^1.2.2
+  icons_launcher: ^2.0.4
+  share_plus: ^10.1.0
+
+flutter_app_name:
+  name: "Melo"
+
+icons_launcher:
+  image_path: "assets/ic_launcher.png"
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
+
+dev_dependencies:
+  flutter_app_name: ^0.1.0
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/ic_launcher.png
